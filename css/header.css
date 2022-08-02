@@ -70,6 +70,10 @@ header .inner {
     top: 80px;
     z-index: -1;
     border: 1px solid #ccc;
+    display:none;
+  }
+  header .inner ul.gnb:hover::after{
+    display: block;
   }
   header .inner ul.gnb:hover::before{
   height: 440px;
@@ -141,9 +145,7 @@ header .inner ul.gnb > li > h2 a::after {
   padding-left: 21px;
   padding-right: 2px;
   }
-  header .inner ul.gnb li ul.gnbsub li a:hover{
-    color: red;
-  }
+
   header .inner ul.enb {
     display: flex; 
     gap: 15px;

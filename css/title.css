@@ -73,8 +73,7 @@
   }
   #title form.search input {
   border: none;
-  line-height: 3.6;
-  width: 85%;
+  line-height: 1.6;
   }
 #title form.search input:focus{ /* :focus input태그안에 커서를 위치시키는 행위 */
   outline:none;
