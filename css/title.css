@@ -54,6 +54,7 @@
   animation-fill-mode: forwards;
 /*   animation-direction: alternate;
   animation-iteration-count: 2; */
+  transition: all 1s;
   }
   @keyframes moveLeft{
     0%{
@@ -74,10 +75,14 @@
   #title form.search input {
   border: none;
   line-height: 1.6;
+  width: 80%;
+    transition: all 0.3s;
   }
-#title form.search input:focus{ /* :focus input태그안에 커서를 위치시키는 행위 */
-  outline:none;
-}
+  .focu { /* :focus input태그안에 커서를 위치시키는 행위 */
+    /* outline:none; */
+    box-shadow: 0 0 8px red !important;;
+
+  }
   #title form.search button {
   border: none;
   background-color: red;

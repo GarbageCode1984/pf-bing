@@ -1,4 +1,15 @@
-
+div.img{
+  
+}
+div.img img{
+  
+}
+h1{
+  
+}
+h1 img{
+  
+}
 /* 빙그레맛 */
 #taste {
     
@@ -191,7 +202,6 @@ margin-bottom:50px;
   height: 100%;
 }
 #community .inner {
-
   width: 1400px;
   margin: 0 auto;
   /*! border: 2px solid #ccc; */
@@ -201,6 +211,8 @@ margin-bottom:50px;
   border-radius: 50px;
   box-shadow: 0 0 11px #ccc;
   /*! margin-top: 100px; */
+  overflow: hidden;
+  height: 410px;
 }
 #community .inner h2 {
   
@@ -295,12 +307,39 @@ margin-bottom:50px;
   
 }
 
-@media screen and (max-width:1920px) {
+@media screen and (max-width:1440px){
   #community .inner{
-  width: 72.916vw;
-  height: 21.3541vw;
+  width: 72.91666666666667vw;
+  height: 21.35416666666667vw;
   }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
